@@ -1,0 +1,186 @@
+/*  inportações*/
+
+/* Montserrat  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+/* Variáveis de cores  */
+:root {
+  --purple-1: #66396e;
+  --purple-2: #9e59aa;
+  --purple-3: #e3c3e9;
+
+  --gray-1: #37474f;
+  --gray-2: #455a64;
+
+  --back-white-1 : #d9cddf;
+  --back-white-2 : #ffffff;
+
+  --shadow-white-1: #b9b9b9ab;
+}
+
+/* Padronização */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+    background-color: var(--back-white-1);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* div principal */
+
+.principal-container {
+    height: 500px;
+    width: 1000px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    background-color: var(--back-white-2);
+    box-shadow: 0 0 10px var(--shadow-white-1);
+}
+
+.img-container {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px dotted #ece5ee;
+}
+
+.img-container img {
+    width: 450px;
+    height: 450px;
+
+}
+
+.form-container {
+    height: 500px;
+    width: 500px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container .form-title {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-top: 20px;
+
+}
+
+.form-container .form-subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 50px;
+    position: relative;
+
+}
+
+.form-subtitle .line {
+    border-top: 1px solid;
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+    left: -180%;
+    top: 60px;
+}
+
+.form-subtitle h2 {
+    z-index: 2;
+    background-color: white;
+}
+
+
+.form-inputs {
+    height: 280px;
+}
+
+.form-inputs .input, .submit {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    
+}
+
+.input label {
+    z-index: 1;
+    font-size: 14pt;
+    position: relative;
+    bottom: -8px;
+    left: 10px;
+    box-sizing: border-box;
+    background-color: var(--back-white-2);
+    width: 70px;
+    padding: 5px;
+    line-height: 5px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.input input {
+    height: 45px;
+    width: 350px;
+    border-radius: 5px;
+    padding: 20px 20px;
+    font-size: 13pt;
+    border: 1px solid #ccc;
+}
+
+.submit input {
+    height: 50px;
+    width: 350px;
+    font-size: 20pt;
+    margin: 10px auto;
+    background-color: #37474f;
+    color: white;
+    letter-spacing: 0.15rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.submit input:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #455a64;
+    box-shadow: 0 0 10px #707070;
+}
+/* olho da senha  */
+
+section {
+    position: relative;
+}
+
+.lnr-eye {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 17pt;
+}
+
+#remember {
+    margin-left: 23px;
+}
+#remember:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: default;
+}
+ /* ####### */

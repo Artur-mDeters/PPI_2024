@@ -1,7 +1,5 @@
 // mostrar senha
 
-console.log("ola");
-
 let olho = document.querySelector(".lnr-eye");
 
 olho.addEventListener("click", function () {

@@ -59,11 +59,15 @@ body {
     border-right: 1px dotted #ece5ee;
 }
 
+/* imagem  */
+
 .img-container img {
     width: 450px;
     height: 450px;
 
 }
+
+ /* formulário  */
 
 .form-container {
     height: 500px;
@@ -172,6 +176,7 @@ section {
     cursor: pointer;
     font-size: 17pt;
 }
+/* ####### */
 
 #remember {
     margin-left: 23px;
@@ -180,7 +185,8 @@ section {
     cursor: pointer;
 }
 
+/* img link  */
+
 a:hover {
     cursor: default;
 }
- /* ####### */
